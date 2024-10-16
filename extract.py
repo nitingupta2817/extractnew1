@@ -57,7 +57,7 @@ st.title("Website Email Extractor and Exporter")
 
 # Text area for inputting a list of website URLs
 st.write("Paste a list of website URLs (one per line):")
-websites_input = st.text_area("Enter websites", value="https://www.espine.in\nhttps://www.venusremedies.com")
+websites_input = st.text_area("Enter websites", value="https://www.sample.com\nhttps://www.sample.in")
 
 # Button to trigger email extraction
 if st.button("Extract Emails"):
